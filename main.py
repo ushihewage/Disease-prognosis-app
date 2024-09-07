@@ -17,15 +17,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.linear_model import LinearRegression
 
-import subprocess
-import sys
-
-try:
-    import matplotlib.pyplot as plt
-except ModuleNotFoundError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "matplotlib"])
-    import matplotlib.pyplot as plt
-
 
 # Set Seaborn style
 sns.set_style("whitegrid")
@@ -45,7 +36,7 @@ st.image("skin.png", width=500)
 st.markdown("[Download the dataset from Kaggle](https://www.kaggle.com/datasets/omersedawei/cvd-cleaned)")
 
 # Load dataset
-dataset_path = r"C:\ITBIN-2110-0069\CVD_cleaned.csv"  # Full path to the CSV 
+dataset_path = r"C:\ITBIN-2110-0069\Disease-prognosis-app\CVD_cleaned.csv"  # Full path to the CSV 
 data = pd.read_csv(dataset_path)
 st.write(f"Dataset shape: {data.shape}")
 

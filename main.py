@@ -26,7 +26,7 @@ st.markdown("[Download the dataset from Kaggle](https://www.kaggle.com/datasets/
 
 # Load dataset
 
-data = pd.read_csv("CVD_cleaned")
+data = pd.read_csv("CVD_cleaned.csv")
 st.write(f"Dataset shape: {data.shape}")
 
 # Sidebar menu with additional filters

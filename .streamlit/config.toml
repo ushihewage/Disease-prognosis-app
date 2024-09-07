@@ -1,0 +1,17 @@
+# .streamlit/config.toml
+
+[theme]
+# Color used for the primary elements such as buttons and headers
+primaryColor="#FF6347"  # Tomato color
+
+# Background color of the main app area
+backgroundColor="#F0F8FF"  # Alice Blue
+
+# Background color of sidebars and other components
+secondaryBackgroundColor="#FFFFFF"  # White
+
+# Color used for text
+textColor="#000080"  # Navy
+
+# Font used in the app
+font="sans serif"

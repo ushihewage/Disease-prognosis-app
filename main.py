@@ -36,8 +36,8 @@ st.image("skin.png", width=500)
 st.markdown("[Download the dataset from Kaggle](https://www.kaggle.com/datasets/omersedawei/cvd-cleaned)")
 
 # Load dataset
-dataset_path = r"C:\ITBIN-2110-0069\Disease-prognosis-app\CVD_cleaned.csv"  # Full path to the CSV 
-data = pd.read_csv(dataset_path)
+
+data = pd.read_csv("CVD_cleaned")
 st.write(f"Dataset shape: {data.shape}")
 
 # Sidebar menu with additional filters
